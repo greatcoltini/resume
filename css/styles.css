@@ -1,11 +1,20 @@
+body {
+    width: 60%;
+    margin: auto;
+}
+
 .grid-main {
     display: grid;
     grid-template-columns: auto auto;
-
+    grid-gap: 5px;
 }
 
 .center {
     text-align: center;
+}
+
+.dark {
+    color: darkolivegreen;
 }
 
 .summary-section {
@@ -15,6 +24,8 @@
 
 h2 {
     text-decoration-line: underline;
+    opacity: 60%;
+    color: grey;
 }
 
 .container {
